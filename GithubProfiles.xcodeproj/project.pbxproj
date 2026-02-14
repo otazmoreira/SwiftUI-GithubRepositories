@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		7A1B1BC42F4003BB0007854C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 7A1B1BC32F4003B70007854C /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		7ACDF0682F3EAC55002C2968 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,12 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7A1B1BC32F4003B70007854C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = README.md; sourceTree = "<group>"; };
 		7ACDF0552F3EAC54002C2968 /* GithubProfiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubProfiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACDF0672F3EAC55002C2968 /* GithubProfilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubProfilesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACDF0712F3EAC55002C2968 /* GithubProfilesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubProfilesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		7A1B1BC62F4003ED0007854C /* Screenshots */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		7ACDF0572F3EAC54002C2968 /* GithubProfiles */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = GithubProfiles;
@@ -75,6 +85,8 @@
 		7ACDF04C2F3EAC54002C2968 = {
 			isa = PBXGroup;
 			children = (
+				7A1B1BC62F4003ED0007854C /* Screenshots */,
+				7A1B1BC32F4003B70007854C /* README.md */,
 				7ACDF0572F3EAC54002C2968 /* GithubProfiles */,
 				7ACDF06A2F3EAC55002C2968 /* GithubProfilesTests */,
 				7ACDF0742F3EAC55002C2968 /* GithubProfilesUITests */,
@@ -108,6 +120,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				7A1B1BC62F4003ED0007854C /* Screenshots */,
 				7ACDF0572F3EAC54002C2968 /* GithubProfiles */,
 			);
 			name = GithubProfiles;
@@ -236,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A1B1BC42F4003BB0007854C /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
